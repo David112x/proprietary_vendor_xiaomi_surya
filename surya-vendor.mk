@@ -1000,3 +1000,6 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3-service-qti \
     manifest_android.hardware.drm@1.3-service.widevine \
     vendor.qti.gnss@4.0-service
+
+# Qualcomm proprietary sources
+$(call inherit-product, vendor/qcom/proprietary/wigig/Android.mk
